@@ -10,7 +10,7 @@ class AddFishForm extends React.Component {
 
     static propTypes = {
         addFish: PropTypes.func
-    }
+    };
     
     createFish = (event) => {
         //1. stop the form from submitting
